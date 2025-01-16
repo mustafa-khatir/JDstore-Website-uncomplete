@@ -1,0 +1,962 @@
+body {
+   overflow-x: hidden; /* makes x-axis scroll hidden and vice versa */
+    background-color: white;
+}
+
+img[src="jd.gif"] {
+    height: 150px;
+    width: 350px;
+    position: relative; 
+    bottom: 25px;
+    right: 20px;
+    
+}
+
+a[href="https://www.jdsports.co.uk/store-locator/"] {
+    float: right;
+    font-size: 13px;
+    text-decoration: none;
+    position: relative; 
+    right:50px;
+    
+}
+
+a[href="https://www.jdsports.co.uk/store-locator/"]:hover {
+    text-decoration: underline;
+}
+
+#searchbar {
+    width: 35%;
+    border: 1px solid rgb(223, 218, 218);
+    padding: 15px 30px 15px 10px;
+    position: relative; 
+    bottom: 130px;
+    left: 50%;
+}
+
+#searchIcon {
+    width:25px;
+    height:35px;
+    position: relative; 
+    bottom: 175px;
+    left: 85%;
+    cursor: pointer;
+}
+
+
+.liss, .B2S, .Offers{
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Anek Devanagari", sans-serif;
+    margin: 15px;
+    color:black;
+}
+.liss:hover{
+    color:grey;
+}
+.B2S:hover{
+    color:grey;
+}
+.Offers {
+    color:red;
+}
+
+
+#nav { /*for nav "back to school..." */
+    position: relative;
+    bottom:180px;
+    text-align: center;
+}
+
+.B2S {
+    color:lightblue;
+}
+.Offers {
+    color:lightblue;
+}
+.B2S:hover {
+    color:lightblue;
+}
+.Offers:hover {
+    color:lightblue;
+}
+
+.STOCK { /*stock up on our offers.. first line */
+font-family: "Anek Devanagari", sans-serif;
+font-weight: bold;
+position: relative;
+bottom: 200px;
+padding-top: 5px;
+padding-bottom: 15px;
+margin-left: -8px;
+margin-right: -8px;
+}
+.STOCK2 { /*shop our best.. second line */
+position: relative;
+bottom: 240px;
+padding-top: -5px;
+margin-left: -8px;
+margin-right: -8px;
+}
+
+.hr1 {
+position: relative;
+bottom: 245px;
+margin-left: 50px;
+margin-right: 50px;
+color: whitesmoke;
+
+}
+
+/*the bubble photos "men, women, kids... */
+#image1 {
+    position: relative;
+    bottom: 230px;
+    left:60px;
+}
+.image11 {
+border: 3px solid white;
+margin:3px;
+} 
+.Men {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+}
+
+#image2 {
+    position: relative;
+    bottom: 398px;
+    left:245px;
+}
+.Women {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+}
+
+#image3 {
+    position: relative;
+    bottom: 568px;
+    left:430px;
+}
+.Kids {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+}
+
+#image4 {
+    position: relative;
+    bottom: 738px;
+    left:610px;
+}
+.Accessories {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+}
+
+#image5 {
+    position: relative;
+    bottom: 905px;
+    left:790px;
+}
+.Nike {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+#image6 {
+    position: relative;
+    bottom: 1070px;
+    left:980px;
+}
+.Triple {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
+#image7 {
+    position: relative;
+    bottom: 1235px;
+    left:1175px;
+}
+.Prem {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    position: relative;
+    left: 10px;
+    bottom: 10px;  
+}
+
+/*1st slideshow */
+.slideshow {
+    position:relative;
+    bottom: 1250px;
+    height:595px;
+    margin-left: -8px;
+    width: 102%;
+}
+
+.BTN1 { /*button for shop now */
+padding:10px;
+width: 220px;
+font-size: large;
+background-color: white;
+border: 5px solid white;
+font-family: "Anek Devanagari", sans-serif;
+position: relative;
+bottom: 1380px;
+left: 1070px;
+}
+.BTN1:hover { /*button for shop now */
+    padding:10px;
+    width: 220px;
+    font-size: large;
+    color:white;
+    background-color: black;
+    border: 5px solid black;
+    font-family: "Anek Devanagari", sans-serif;
+    position: relative;
+    bottom: 1380px;
+    left: 1070px;
+    cursor: pointer;
+    }
+
+#nhs { /*blue nhs photo */
+position:relative;
+bottom: 1240px;
+height:180px;
+width: auto;
+margin-left: 50px;
+
+}
+
+/**/
+.man1 {
+position:relative;
+bottom: 1180px;
+left:60px;
+width:390px;
+height:500px;
+}
+
+
+.women1 {
+position:relative;
+bottom: 1180px;
+left:75px;
+width:390px;
+height:500px;
+}
+
+
+.kids1 {
+position:relative;
+bottom: 1180px;
+left:90px;
+width:390px;
+height:500px;    
+}
+
+/**/
+#men10 {
+    position: relative;
+    bottom:1400px;
+    opacity: 0;
+}
+.men1 {
+    font-family: "Anek Devanagari", sans-serif;
+    position: relative;
+    left:200px;
+    bottom: 180px;;
+    color: white;
+    font-size: 45px;
+}
+.men0 { /*the list for men's */
+    list-style-type: none; 
+    font-family: "Anek Devanagari", sans-serif;
+    color: white;
+    position:relative;
+    bottom:200px;
+    left: 180px;
+    opacity:1;
+}
+
+#men10:hover { /* will come back after */
+opacity: 1;
+}
+
+
+/*adidas shoe*/
+.adidas {
+    position: relative;
+    bottom:1400px;
+    left:60px;
+    height:180px;
+    width:90%;
+}
+
+
+/*brands and logos */
+#logos {
+    position: relative;
+    bottom:1350px;
+    left:60px;
+}
+
+.brands { 
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 35px;;
+}
+
+.nike1:hover {
+    color:grey;           /*need to change and check how to change logo color */
+}
+.nike1 {
+    cursor:pointer;
+    color: pink;;
+}
+
+.adidas1 {
+    cursor:pointer;
+    position: relative;
+    bottom:15px;
+    left: 25px;
+}
+
+.ogadidas1 {
+    cursor:pointer;
+    position: relative;
+    bottom:15px;
+    left: 85px;
+}
+
+.newbalance1 {
+    cursor:pointer;
+    position: relative;
+    bottom:2px;
+    left: 120px;
+}
+
+.montirex1 {
+    cursor:pointer;
+    position: relative;
+    bottom:2px;
+    left: 160px;
+}
+
+.crocs1 {
+    cursor:pointer;
+    position: relative;
+    bottom:2px;
+    left: 200px;
+}
+
+.northface1 {
+    cursor:pointer;
+    position: relative;
+    bottom:2px;
+    left: 230px;
+}
+
+.onrunning1 {
+    cursor:pointer;
+    position: relative;
+    top: 100px;
+    right: 980px;
+
+}
+
+.underarmour1 {
+    cursor:pointer;
+    position: relative;
+    top: 100px;
+    right: 950px;
+}
+
+.hoodrich1 {
+    cursor:pointer;
+    position: relative;
+    top: 10px;
+    left: 360px;
+}
+
+.converse1 {
+    cursor:pointer;
+    position: relative;
+    left: 390px;
+}
+
+.jordan1 {
+    cursor:pointer;
+    position: relative;
+    left: 420px;
+}
+
+.berg1 {
+    cursor:pointer;
+    position: relative;
+    left: 460px;
+}
+
+.hoka1 {
+    cursor:pointer;
+    position: relative;
+    left:500px;
+}
+
+
+/*TOP PICKS and shop mens,, with buttons */
+#TPS {
+    position: relative;
+    bottom: 1300px;
+    left:50px;
+}
+.TPS1 {
+    font-family: Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+    font-size: 35px;;
+}
+
+.shopmenBTN {       /*how to change photo after clicking on button */
+    cursor:pointer; 
+    position: relative;
+    bottom:80px;
+    left:210px;
+    font-size: 18px;
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    font-family: Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+    padding: 15px;
+    width:150px;
+}
+.shopwomenBTN {
+    cursor:pointer;
+    position: relative;
+    bottom:80px;
+    left:222px;
+    font-size: 18px;
+    border: solid black 1px;
+    background-color: white;
+    color: rgb(121, 115, 115);
+    font-family: Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+    padding: 15px;
+    width:180px;
+}
+.shopkidBTN {
+    cursor:pointer;
+    position: relative;
+    bottom:80px;
+    left:233px;
+    font-size: 18px;
+    border: solid black 1px;
+    background-color: white;
+    color: rgb(121, 115, 115);
+    font-family: Gotham SSm A,Gotham SSm B,Arial,sans-serif;
+    padding: 15px;
+    width:150px;
+}
+
+/*the 4 photo from top picks */
+#MENbtn {
+    position: relative;
+    bottom:1360px;
+}
+
+.manP1 {
+    position: relative;
+    left: 50px;
+    height:300px;
+    width:300px;
+}
+.£30 {
+    position: relative;
+    bottom:5px;
+    left: 50px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:18px;
+    font-weight: bold;
+}
+.£30_info {
+    position: relative;
+    left: 45px;
+    bottom:30px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:18px;
+    font-weight:400;
+}
+
+.manP2 {
+    position: relative;
+    left: 370px;
+    bottom: 453px;
+    height:300px;
+    width:300px;
+}
+.£150 {
+    position: relative;
+    left:370px;
+    bottom: 460px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:18px;
+    font-weight: bold;
+}
+.£150_info {
+    position: relative;
+    bottom:485px;
+    left: 365px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:18px;
+    font-weight:400;
+}
+
+.manP3 {
+    position: relative;
+    left: 690px;
+    bottom: 877px;
+    height:300px;
+    width:300px;
+}
+.£85 {
+    position: relative;
+    left:690px;
+    bottom: 885px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:18px;
+    font-weight: bold;
+}
+.£85_info {
+    position: relative;
+    bottom:912px;
+    left: 690px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:18px;
+    font-weight:400;
+}
+
+.manP4 {
+    position: relative;
+    left: 1010px;
+    bottom: 1300px;
+    height:300px;
+    width:300px;
+}
+.£110 {
+    position: relative;
+    left:1010px;
+    bottom: 1310px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:18px;
+    font-weight: bold; 
+}
+.£110_info {
+    position: relative;
+    left:1010px;
+    bottom: 1340px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:18px;
+    font-weight:400;
+}
+
+
+/*follow us on instagram part */
+#Follow_us_insta {
+    position:relative;
+    bottom: 2630px;
+    left: 60px;
+}
+
+.instagram_jdsports_title {
+    font-size:32px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 700;
+}
+.instagram_jdsports_title2 {
+    font-size:24px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 600;
+    position:relative;
+    bottom: 35px;
+}
+
+
+/*celtic fc shirt photo */
+#celtic_photo {
+    position: relative;
+    bottom:2600px;
+    left:70px;
+
+}
+
+.celtic_shirt {
+    height: 90%;
+    width: 90%;
+}
+.celtic_pre-orderBTN {
+    cursor: pointer;
+    position: relative;
+    bottom: 110px;
+    left:975px;
+    color: black;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 400;
+   padding: 17px;
+   width:200px;
+   height:60px;
+   border: 1px solid white;
+}
+
+
+/*linked together with nike image */
+#linkedTogether {
+    position: relative;
+    bottom:2600px;
+    left:60px;
+    width:1238px;
+}
+
+
+/* 2 big photos with holiday shop and back to school */
+#photos2 {
+position: relative;
+bottom:2540px;
+left:55px;
+}
+
+.holiday_shop {
+ width:607px;
+ height:534px;
+}
+.back2school {
+  width:607px;
+ height:534px;
+ position: relative;
+ left: 25px;
+}
+
+.holiday_shop_info {
+    cursor:pointer;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.48px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight:600;
+}
+.back2school_info {
+    cursor:pointer;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.48px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight:600;
+    position: relative;
+    left:640px;
+    bottom: 53px;
+}
+
+
+/*Discover section */
+#Discover {
+ position: relative;
+ bottom:2530px;
+ left:60px;
+}
+
+.discover_info {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size:35px;
+    letter-spacing: 2px;
+}
+.view_all {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 25px;
+    font-weight: 570;
+    letter-spacing: 1px;
+    position: relative;
+    bottom:78px;
+    left:1145px;
+    padding:0;
+    margin:0;
+}
+.view_all:hover {
+    background-color: black;
+    color:white;
+}
+
+
+#start_fresh { /*start fresh section with image */
+ position:relative;
+ bottom:75px;
+}
+.start_freshIMG {
+ height:402px;
+ width:402px;
+}
+.start_freshTitle {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+.start_freshInfo {
+    font-family: "Anek Devanagari", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.29;
+}
+.start_freshFOM {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+#win_a_£1000 {
+ position:relative;
+ bottom:668px;
+ left:417px;
+}
+.win_a_£1000IMG {
+ height:402px;
+ width:402px;
+}
+.win_a_£1000Title {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    line-height: 1; /*for closing gaps on other line */
+    position: relative;
+    top: 6px;
+}
+.win_a_£1000Info {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.29;
+}
+.win_a_£1000FOM {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+#Ahead_of_game {
+    position:relative;
+    bottom:1269px;
+    left:835px;
+}
+.Ahead_of_gameIMG{
+    height:402px;
+    width:402px;
+}
+.Ahead_of_gameTitle{
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    line-height: 1; /*for closing gaps on other line */
+    position: relative;
+    top: 6px;
+}
+.Ahead_of_gameInfo {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: 1px;
+}
+
+.Ahead_of_gameFOM {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+
+/*join the convo section with black background */
+#Join_convo {
+ position: relative;
+ bottom:1200px;
+
+}
+.Join_convoTitle {
+    background-color: black;
+    color:white;
+    position: relative;
+    right:70px;
+    width:100%;
+    height:20px;
+    padding:20px;
+    padding-left: 40px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight:500;
+}
+
+
+#logo_list1{
+    position: relative;
+  bottom:70px;
+ left:100px;
+ list-style-type: none; /* takes the boillet point from the lists */
+
+}
+.logos2 {
+    display:inline-block;
+}
+
+.facebookIMG {
+height: 25px;
+width:25px;
+}
+.youtubeIMG {
+ height: 25px;
+ width:25px;
+}
+.twitterIMG {
+ height: 25px;
+ width:25px;  
+}
+.instagramIMG {
+
+ height: 25px;
+ width:25px;  
+}
+.tiktokIMG {
+ height: 25px;
+ width:25px; 
+ border-radius:5px;
+}
+
+
+/*want to get 10% off next order and sign up for latest..*/
+#signup {
+    background-color: #f5f5f5;
+    position:relative;
+    bottom:1266px;
+    right:60px;
+    padding:60px;
+    margin-left:-8px;
+    margin-right:-8px;
+}
+
+.signupTitle {
+    font-size: 35px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  font-family: "Anek Devanagari", sans-serif;
+  text-align: center;
+  line-height:50px;
+}
+.signupInfo {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 22px;
+    line-height: 1.43;
+    letter-spacing: 0.20px;
+    text-align: center;
+    position:relative;
+    bottom:25px;
+    
+}
+
+.newsletter_email{ 
+    position: relative;
+    left:260px;
+    width:720px;
+    height:50px;
+    border: solid white ;
+}
+
+.privacyNotice {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 22px;
+    line-height: 1.43;
+    letter-spacing: 0.20px;
+    text-align: center;
+    position:relative;
+    bottom:25px;
+    line-height: 150px;
+}
+.Terms_condition {
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 22px;
+    line-height: 1.43;
+    letter-spacing: 0.20px;
+    text-align: center;
+    position:relative;
+    bottom:95px;  
+}
+
+
+/*footer 3images */
+#footerIMG {
+position: relative;
+bottom:3796px;
+right:8px;
+width:1366px;
+height:550px;
+}
+#footerIMGS { /*the inner div for the 3 images */
+width:1326px;
+height:488px;
+position: relative;
+top:30px;
+left:20px;
+background-color: lightgreen;  /*using green to check if the images fit inside the inner div */
+}
+
+.FIMAGE1{
+ background-color: #2e2e2e;
+ color: #fff;
+ width:422px;
+ height:468px;
+ position: relative;
+ top:10px;
+ left:10px;
+}
+.FIMAGE2 {
+ background-color: #2e2e2e;
+ color: #fff;
+ width:422px;
+ height:468px;
+ position:relative;
+ bottom:458px;
+ left:450px;
+}
+.FIMAGE3, .FIMAGE3_1 {
+ width:422px;
+ height:468px;
+ position:relative;
+ bottom:463px;
+ left:446px;
+}
+
