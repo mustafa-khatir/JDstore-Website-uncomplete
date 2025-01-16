@@ -1,1 +1,1 @@
-# JDstore-Website-uncomplete
+# JDstore-Website-uncomplete version,  Not my best work as lots of things are missing such as responsive design, flexbox, interactivity and more. this is the link to the website https://mustafakhatir-jdsports.netlify.app/ hope i dont get CopyRighted 😁 
